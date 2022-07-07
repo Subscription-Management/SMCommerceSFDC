@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "SMCommerceSF",
+  "name": "SMCommerceSFDC",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "55.0"
