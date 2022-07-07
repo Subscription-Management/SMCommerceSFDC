@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <types>
+        <members>CartItem__c</members>
+        <name>CustomObject</name>
+    </types>
+
+    <types>
+        <members>Quote.Account__c</members>
+        <members>Quote.Account_Name__c</members>
+        <members>Quote.CartTotal__c</members>
+        <members>Quote.Contact_Name__c</members>
+        <members>Quote.SM_Status__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <types>
+        <members>Quote</members>
+        <name>Settings</name>
+    </types>
+
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+
+    <types>
+        <members>Buy_Now_GA</members>
+        <members>SM_Mobile_Create_Quote_and_Cart_Items</members>
+        <members>SM_Mobile_Create_Order_From_Quote_and_Cart_Lines</members>
+        <name>Flow</name>
+    </types>
+    
+    <types>
+        <members>SM_CartItemBefore</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <version>55.0</version>
+</Package>
